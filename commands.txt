@@ -1,0 +1,10 @@
+sudo -iu postgres
+psql
+\l
+\du
+\conninfo
+CREATE USER ... ;
+ALTER USER ... WITH SUPERUSER;
+ALTER USER ... WITH CREATEROLE;
+ALTER USER ... WITH CREATEDB;
+CREATE DATABASE student;
